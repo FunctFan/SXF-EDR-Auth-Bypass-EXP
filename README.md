@@ -15,6 +15,8 @@
 
 `app:"深信服EDR"`
 
+![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/3.png)
+
 总共327个结果～～～
 
 
@@ -43,7 +45,3 @@
 tool/log/c.php检测:
 
 ![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/2.png)
-
-app:"深信服EDR":
-
-![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/3.png)
