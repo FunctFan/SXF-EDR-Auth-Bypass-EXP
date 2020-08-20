@@ -36,9 +36,11 @@ app:"深信服EDR"
 
 因为404大表哥给的神器不太好发出来，不过小老弟我！实在人！！ 把2秒钟写的那个认证饶过的POC分享给大家，用Pocsuite3加载也是可以跑的～～
 
-
+认证绕过检测：
 
 ![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/1.png)
+
+tool/log/c.php检测:
 
 ![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/2.png)
 
