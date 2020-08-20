@@ -13,7 +13,7 @@
 
 想起前几天活动中奖的还是ZoomEye高级账号果断搜索一把 
 
-app:"深信服EDR"
+`app:"深信服EDR"`
 
 总共327个结果～～～
 
@@ -22,7 +22,7 @@ app:"深信服EDR"
 
 我创宇404的一大表哥，直接甩我一神器 加载poc
 
-先跑了下tool/log/c.php命令执行那个漏洞，只中了2个！！！ 
+先跑了下`tool/log/c.php`命令执行那个漏洞，只中了2个！！！ 
 
 
 在跑一下今天早上有另外大表哥公布的那个登陆认证的，不能什么事情都麻烦大表哥，还好我学过几天py 2秒钟搞定 
@@ -43,5 +43,7 @@ app:"深信服EDR"
 tool/log/c.php检测:
 
 ![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/2.png)
+
+app:"深信服EDR":
 
 ![](https://github.com/TNTGODV0/SXF-EDR-Auth-Bypass-EXP/raw/master/images/3.png)
